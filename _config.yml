@@ -9,6 +9,7 @@ favicon_ico: "/images/favicon.svg"
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
+$link-color: $green-200;
 
 search:
   # Split pages into sections that can be searched individually
@@ -37,6 +38,20 @@ search:
   focus_shortcut_key: 'k'
 
 nav_enabled: true
+collections:
+  posts:
+    output: true
+  resources:
+    output: true
+
+zapthecactus:
+  collections:
+    posts:
+      name: Blog
+      nav_fold: true
+    resources:
+      name: Resources
+      nav_fold: true
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
