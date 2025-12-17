@@ -41,23 +41,28 @@ nav_enabled: true
 collections:
   posts:
     output: true
+    sidebar_label: Blog
+    nav_fold: true
   resources:
     output: true
+    sidebar_label: Resources
+    nav_fold: true
 
-zapthecactus:
-  collections:
-    posts:
-      name: Blog
-      nav_fold: true
-    resources:
-      name: Resources
-      nav_fold: true
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
   - jekyll-feed
   - jekyll-admin
+
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
   
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
