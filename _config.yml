@@ -4,8 +4,8 @@ theme: just-the-docs
 
 url: https://fae152.github.io/zapthecactus/
 
-logo: "/assets/images/favion.png"
-favicon_ico: "/assets/images/favicon.svg"
+logo: "/images/favion.png"
+favicon_ico: "/images/favicon.svg"
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
